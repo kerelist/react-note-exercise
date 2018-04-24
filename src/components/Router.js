@@ -3,8 +3,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import App from '../App';
 import NotFound from './404';
 
+const basename = () => {
+  return process.env.NODE_ENV === 'production' ? '/flynotes' : '/';
+}
+
 const Router = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={basename()}>
     <Switch>
       <Route exact path="/" component={App} />
       <Route exact path="/view/:id" component={App} />
