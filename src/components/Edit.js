@@ -20,7 +20,7 @@ class Edit extends Component {
     const n = this.props.note;
 
     return (
-      <div>
+      <div role="form">
         {
           !n &&
           <div>

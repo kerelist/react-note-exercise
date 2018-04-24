@@ -102,11 +102,11 @@ class App extends Component {
   render() {
     return (
       <div className="center">
-        <header className="bg-lightest-blue dark-gray pa3 tc">
+        <header role="banner" className="bg-lightest-blue dark-gray pa3 tc">
           <h1 className="f1 athelas ma0">Fly Notes <img className="bounce w3 h3" src={bird} alt="a small flock of distant birds bobs up and down" /></h1>
           <p className="f5 avenir i">just trying some fly stuff</p>
         </header>
-        <main className="mw8 center pv2 main">
+        <main role="main" className="mw8 center pv2 main">
           <section className="w-100 w-40-ns pa3 dib v-top">
             <Add startNewNote={this.startNewNote} />
             <NoteList 
@@ -135,7 +135,7 @@ class App extends Component {
             }
           </section>
         </main>
-        <footer className="pa3 bg-light-green dark-gray avenir">
+        <footer role="contentinfo" className="pa3 bg-light-green near-black avenir">
           <p className="">&copy; Andrea Kereliuk 2018</p>
           <p className="f7 ma0 mt1">Pencil icon used under Creative Commons, made by Jean-Philippe Cabaroc at <a href="https://thenounproject.com/search/?q=pencil&i=110866" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
           <p className="f7 ma0">Birds icon used under Creative Commons, made by Valeriy at <a href="https://thenounproject.com/search/?q=bird&i=1199656" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>

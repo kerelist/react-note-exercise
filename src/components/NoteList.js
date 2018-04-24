@@ -14,7 +14,7 @@ class NoteList extends Component {
     const notes = this.props.notes;
 
     return (
-      <nav className="pt1 bt bw3 b--dark-blue mt3">
+      <nav role="navigation" className="pt1 bt bw3 b--dark-blue mt3">
         <ul className="list pl0">
           {
             notes.map((note, index) => 
