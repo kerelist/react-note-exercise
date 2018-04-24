@@ -1,4 +1,4 @@
-# react-note-exercise
+# Fly Notes
 An exercise in creating a react notes SPA; also using tachyons for styles
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
