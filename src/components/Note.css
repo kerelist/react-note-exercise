@@ -1,0 +1,18 @@
+.editor {
+  display: flex;
+  flex-direction: column;
+}
+
+.editor > textarea {
+  flex-grow: 1;
+  height: 400px;
+}
+
+.editor a {
+  color: navy;
+}
+
+.editor a:hover,
+.editor a:focus {
+  color: cornflowerblue;
+}

@@ -1,0 +1,37 @@
+body {
+  font-family: Avenir, sans-serif;
+}
+
+a {
+  color: navy;
+  transition: color 0.2s ease;
+}
+
+a:hover, a:focus {
+  color: forestgreen;
+}
+
+.bounce {
+  animation-name: bounce;
+  animation-duration: 0.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+}
+
+@keyframes bounce {
+  to {
+    transform: translateY(-5px);
+  }
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (min-width: 30em) {
+  .main {
+    flex-wrap: nowrap;
+  }
+}
