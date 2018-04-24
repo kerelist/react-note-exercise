@@ -7,6 +7,8 @@ To run locally, run `npm install`, then once finished, run `npm start`.
 
 Currently this only runs for the active browser window - refresh or close the tab, start over!
 
+> Viewable/usable at http://andreakereliuk.com/flynotes/
+
 ## Things to make this better
 
 - defaultProps & [propTypes](https://www.npmjs.com/package/prop-types)
