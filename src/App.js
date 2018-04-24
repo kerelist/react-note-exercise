@@ -135,12 +135,14 @@ class App extends Component {
             }
           </section>
         </main>
-        <footer role="contentinfo" className="pa3 bg-light-green near-black avenir">
-          <p className="">&copy; Andrea Kereliuk 2018</p>
-          <p className="f7 ma0 mt1">Pencil icon used under Creative Commons, made by Jean-Philippe Cabaroc at <a href="https://thenounproject.com/search/?q=pencil&i=110866" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
-          <p className="f7 ma0">Birds icon used under Creative Commons, made by Valeriy at <a href="https://thenounproject.com/search/?q=bird&i=1199656" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
-          <p className="f7 ma0">Notes icon used under Creative Commons, made by Hea Poh Lin at <a href="https://thenounproject.com/search/?q=note&i=470403" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
-          <p className="f7 ma0">Trash icon used under Creative Commons, made by Nesdon Booth at <a href="https://thenounproject.com/search/?q=trash&i=91285" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
+        <footer role="contentinfo" className="bg-light-green near-black avenir">
+          <div className="mw8 center pa3">
+            <p className="">&copy; Andrea Kereliuk 2018</p>
+            <p className="f7 ma0 mt1">Pencil icon used under Creative Commons, made by Jean-Philippe Cabaroc at <a href="https://thenounproject.com/search/?q=pencil&i=110866" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
+            <p className="f7 ma0">Birds icon used under Creative Commons, made by Valeriy at <a href="https://thenounproject.com/search/?q=bird&i=1199656" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
+            <p className="f7 ma0">Notes icon used under Creative Commons, made by Hea Poh Lin at <a href="https://thenounproject.com/search/?q=note&i=470403" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
+            <p className="f7 ma0">Trash icon used under Creative Commons, made by Nesdon Booth at <a href="https://thenounproject.com/search/?q=trash&i=91285" target="_blank" rel="noopener noreferrer">The Noun Project</a></p>
+          </div>
         </footer>
       </div>
     );
