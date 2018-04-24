@@ -10,4 +10,4 @@ Currently this only runs for the active browser window - refresh or close the ta
 ## Things to make this better
 
 - defaultProps & [propTypes](https://www.npmjs.com/package/prop-types)
-- you know, a back end & actual storage (firebase?)
+- you know, a back end & actual storage ([firebase?](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md#firebase))
